@@ -79,11 +79,11 @@ client.on("message", (message) => {
 		let filter = message.content.slice(prefix.length + 5) 
 		let item = message.content.slice(7) 
 		let _skill = client.msgs[filter]
-		if(!_skill) return message.reply('Can`t find skill')
+		if(!_skill) return message.reply('I cant find that skill')
 		const whoEmbed = new discord.MessageEmbed() 
 			.setColor('#0099ff') 
 			.setTitle('These players can craft ' + item) 
-			.setAuthor('VINDICTIVE CRAFTER BOT', 'https://i.imgur.com/wSTFkRM.png') 
+			.setAuthor('VINDICTIVE CRAFTER BOT', 'https://i.imgur.com/uz8xDax.jpg') 
 			.setDescription(`${_skill.map(user => `<@${user}>`).join('\n')}`) 
 			.setFooter('This bot was created by BigTibbies'); 
 		message.channel.send(whoEmbed); 
