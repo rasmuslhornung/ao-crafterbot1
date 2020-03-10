@@ -2,7 +2,8 @@ const discord = require('discord.js');
 
 var client = new discord.Client();
 const fs = require("fs");
-const token = "Njg2NTE4MDM2ODk4OTA2MTIy.XmYX7g.0yvvjQpuvc4K5p-Wwvkx4qol9l8";
+const config = require ('./config.json');
+client.login (config.token);
 
 
 
@@ -95,5 +96,4 @@ client.on("message", (message) => {
 	 }});
 
 
-	 client.login("Njg2NTE4MDM2ODk4OTA2MTIy.Xmem4w.sWowwYK4KKLpKZvC4G7NgHB-ZcQ");
-// client.login(process.env.BOT_TOKEN);
+	 
