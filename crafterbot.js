@@ -95,5 +95,5 @@ client.on("message", (message) => {
 	 }});
 
 
-	 client.login("Njg2NTE4MDM2ODk4OTA2MTIy.Xmek4Q.rFuitsVpEhPDTxbcWQgggdEMYbM");
+	 client.login("Njg2NTE4MDM2ODk4OTA2MTIy.Xmem4w.sWowwYK4KKLpKZvC4G7NgHB-ZcQ");
 // client.login(process.env.BOT_TOKEN);
