@@ -2,7 +2,6 @@ const discord = require('discord.js');
 
 var client = new discord.Client();
 const fs = require("fs");
-const config = require("./config.json")
 const token = "Njg2NTE4MDM2ODk4OTA2MTIy.XmYX7g.0yvvjQpuvc4K5p-Wwvkx4qol9l8";
 
 
@@ -16,7 +15,6 @@ client.on("ready", () => {
 	console.log("ready.");
 
 	client.msgs = require("./msgs.json");
-	data = require("./data.json");
 
 
 });
