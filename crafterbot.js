@@ -3,7 +3,7 @@ const discord = require('discord.js');
 var client = new discord.Client();
 const fs = require("fs");
 const config = require ('./config.json');
-client.login (config.token);
+
 
 
 
@@ -95,5 +95,5 @@ client.on("message", (message) => {
 		 
 	 }});
 
-
+	 client.login (config.token);
 	 
